@@ -176,6 +176,9 @@
     <ClInclude Include="..\..\src\HDE\table64.h" />
     <ClInclude Include="..\..\src\trampoline.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Directory.build.props" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

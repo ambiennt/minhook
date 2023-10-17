@@ -52,4 +52,7 @@
       <UniqueIdentifier>{56ddb326-6179-430d-ae19-e13bfd767bfa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Directory.build.props" />
+  </ItemGroup>
 </Project>
