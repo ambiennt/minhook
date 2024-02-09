@@ -2,6 +2,6 @@
   <PropertyGroup>
     <LLVMInstallDir>$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\LLVM\LLVM)</LLVMInstallDir>
     <LLVMInstallDir Condition="'$(LLVMInstallDir)' == ''">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\LLVM\LLVM)</LLVMInstallDir>
-    <LLVMToolsVersion>17.0.1</LLVMToolsVersion>
+    <LLVMToolsVersion>18.1.0</LLVMToolsVersion>
   </PropertyGroup>
 </Project>
